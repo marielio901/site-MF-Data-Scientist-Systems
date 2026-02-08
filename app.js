@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
             metaDescription: 'Mariélio Fernandes - Data Scientist focado em Software, Data Science e IA aplicada a negócios.',
             nav: ['Quem sou', 'Serviços', 'Como Trabalho', 'Portfólio', 'Estimativa'],
             hero: {
-                title: 'Dados e IA aplicados para<br><span class="text-gradient">transformar operação em decisão.</span>',
-                subtitle: 'Desenvolvo softwares e ecossistemas inteligentes que se integram aos seus processos,<br>garantindo estabilidade, segurança e escalabilidade operacional.',
+                title: 'Dados e IA aplicados para <br><span class="text-gradient">transformar operação em decisão.</span>',
+                subtitle: 'Desenvolvo softwares e ecossistemas inteligentes que se integram aos seus processos, <br>garantindo estabilidade, segurança e escalabilidade operacional.',
                 primaryCta: 'Chamar no WhatsApp',
                 secondaryCta: 'Fazer estimativa do projeto',
                 badges: ['Data Science', 'IA Aplicada', 'Cloud-ready', 'Automação', 'Escalável', 'Seguro'],
@@ -182,8 +182,8 @@ document.addEventListener('DOMContentLoaded', () => {
             metaDescription: 'Mariélio Fernandes - Data Scientist focused on software, data science, and AI applied to business.',
             nav: ['About', 'Services', 'How I Work', 'Portfolio', 'Estimate'],
             hero: {
-                title: 'Data and AI applied to<br><span class="text-gradient">turn operations into decisions.</span>',
-                subtitle: 'I develop software and intelligent ecosystems that integrate with your processes,<br>ensuring operational stability, security, and scalability.',
+                title: 'Data and AI applied to <br><span class="text-gradient">turn operations into decisions.</span>',
+                subtitle: 'I develop software and intelligent ecosystems that integrate with your processes, <br>ensuring operational stability, security, and scalability.',
                 primaryCta: 'Message on WhatsApp',
                 secondaryCta: 'Estimate your project',
                 badges: ['Data Science', 'Applied AI', 'Cloud-ready', 'Automation', 'Scalable', 'Secure'],
