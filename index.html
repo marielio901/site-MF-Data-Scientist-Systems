@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin-when-cross-origin">
+    <meta name="description"
+        content="Mariélio Fernandes - Data Scientist focado em Software, Data Science e IA aplicada a negócios.">
+    <meta name="author" content="Mariélio Fernandes">
+    <title>Mariélio. Data Scientist & Systems</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Force Styles to fix cache/loading issues -->
+    <style>
+        .main-media img,
+        .main-media video,
+        .main-media iframe {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain !important;
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Imagens/logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="Imagens/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-main">Mariélio<span class="logo-dot">.</span></span>
+                    <span class="logo-sub">Data Scientist<br>&amp; Systems</span>
+                </div>
+            </a>
+            <button class="mobile-menu-btn">☰</button>
+            <div class="header-actions">
+                <nav>
+                    <ul>
+                        <li><a href="#about">Quem sou</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#process">Como Trabalho</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#quiz-section" class="btn btn-primary"
+                                style="padding: 8px 16px; font-size: 0.8rem;">Estimativa</a></li>
+                    </ul>
+                </nav>
+                <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Alternar idioma">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero text-center">
+        <div class="container hero-content fade-in">
+            <h1 class="hero-title">Dados e IA aplicados para<br><span class="text-gradient">transformar operação em
+                    decisão.</span></h1>
+            <p class="hero-subtitle">Desenvolvo softwares e ecossistemas inteligentes que se integram aos seus
+                processos,<br>garantindo estabilidade, segurança e escalabilidade operacional.</p>
+
+            <div class="hero-actions"
+                style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
+                <a href="https://wa.me/5538991307746" target="_blank" class="btn btn-primary btn-lg">Chamar no
+                    WhatsApp</a>
+                <a href="#quiz-section" class="btn btn-outline btn-lg">Fazer estimativa do projeto</a>
+            </div>
+
+            <div class="hero-badges justify-center">
+                <span class="badge"><i class="ph ph-chart-bar"></i> Data Science</span>
+                <span class="badge"><i class="ph ph-cpu"></i> IA Aplicada</span>
+                <span class="badge"><i class="ph ph-cloud"></i> Cloud-ready</span>
+                <span class="badge"><i class="ph ph-gears"></i> Automação</span>
+                <span class="badge"><i class="ph ph-arrows-out"></i> Escalável</span>
+                <span class="badge"><i class="ph ph-shield-check"></i> Seguro</span>
+            </div>
+
+            <div class="segments-grid">
+                <div class="segment-item"><i class="ph ph-buildings"
+                        style="font-size: 24px; color: var(--primary-color); margin-bottom: 10px; display: block;"></i>Empreiteiras
+                </div>
+                <div class="segment-item"><i class="ph ph-factory"
+                        style="font-size: 24px; color: var(--primary-color); margin-bottom: 10px; display: block;"></i>Indústrias
+                </div>
+                <div class="segment-item"><i class="ph ph-plant"
+                        style="font-size: 24px; color: var(--primary-color); margin-bottom: 10px; display: block;"></i>Agronegócio
+                </div>
+                <div class="segment-item"><i class="ph ph-storefront"
+                        style="font-size: 24px; color: var(--primary-color); margin-bottom: 10px; display: block;"></i>Comércio
+                    e Varejo</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT / QUEM SOU -->
+    <section id="about" class="section-padding" style="background: var(--surface-color);">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <div class="photo-placeholder">
+                        <img src="Imagens/profile.png" alt="Mariélio Fernandes" class="profile-photo">
+                    </div>
+                    <a href="#portfolio" class="btn btn-outline about-cta">Ver portfólio</a>
+                </div>
+
+                <div class="about-text fade-in">
+                    <h2>Quem sou</h2>
+                    <p class="about-lead">Sou Mariélio Fernandes, Cientista de Dados:</p>
+                    <p>Construo soluções orientadas a dados e IA para reduzir ineficiência, padronizar rotinas e
+                        melhorar a tomada de decisão em operações reais.</p>
+
+                    <div class="about-details-grid">
+                        <article class="about-detail-card">
+                            <i class="ph ph-buildings"></i>
+                            <div>
+                                <h5>Segmentos atendidos</h5>
+                                <p>Empreiteiras, indústrias, agronegócio e varejo.</p>
+                            </div>
+                        </article>
+                        <article class="about-detail-card">
+                            <i class="ph ph-chart-line-up"></i>
+                            <div>
+                                <h5>Foco de resultado</h5>
+                                <p>Eficiência operacional, previsibilidade e indicadores acionáveis.</p>
+                            </div>
+                        </article>
+                        <article class="about-detail-card">
+                            <i class="ph ph-database"></i>
+                            <div>
+                                <h5>Stack de trabalho</h5>
+                                <p>Python, Flask, SQL, automação, IA aplicada e dashboards.</p>
+                            </div>
+                        </article>
+                        <article class="about-detail-card">
+                            <i class="ph ph-shield-check"></i>
+                            <div>
+                                <h5>Padrão de entrega</h5>
+                                <p>Arquitetura sólida, documentação e evolução contínua pós-deploy.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <i class="ph ph-robot"></i>
+                            <h4>Automação & Data Apps</h4>
+                        </div>
+                        <div class="feature-card">
+                            <i class="ph ph-database"></i>
+                            <h4>ETL/ELT e Integrações</h4>
+                        </div>
+                        <div class="feature-card">
+                            <i class="ph ph-trend-up"></i>
+                            <h4>Modelos Preditivos</h4>
+                        </div>
+                        <div class="feature-card">
+                            <i class="ph ph-chat-circle-text"></i>
+                            <h4>LLMs e Chatbots</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <h2 class="fade-in text-center">Serviços</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="card fade-in">
+                    <i class="ph ph-code"
+                        style="font-size: 32px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Desenvolvimento de Software</h3>
+                    <ul>
+                        <li><i class="ph ph-check-circle"></i> Web Apps e SaaS</li>
+                        <li><i class="ph ph-check-circle"></i> Aplicativos Internos</li>
+                        <li><i class="ph ph-check-circle"></i> Dashboards orientados a dados</li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-outline">Quero conversar</a>
+                </div>
+                <!-- Service 2 -->
+                <div class="card fade-in">
+                    <i class="ph ph-chart-line-up"
+                        style="font-size: 32px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Data Science</h3>
+                    <ul>
+                        <li><i class="ph ph-check-circle"></i> Modelos Preditivos</li>
+                        <li><i class="ph ph-check-circle"></i> Otimização de Processos</li>
+                        <li><i class="ph ph-check-circle"></i> Visão Computacional</li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-outline">Quero conversar</a>
+                </div>
+                <!-- Service 3 -->
+                <div class="card fade-in">
+                    <i class="ph ph-brain"
+                        style="font-size: 32px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Inteligência Artificial</h3>
+                    <ul>
+                        <li><i class="ph ph-check-circle"></i> LLMs e Chatbots</li>
+                        <li><i class="ph ph-check-circle"></i> Agentes Autônomos</li>
+                        <li><i class="ph ph-check-circle"></i> Automação Inteligente</li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-outline">Quero conversar</a>
+                </div>
+                <!-- Service 4 -->
+                <div class="card fade-in">
+                    <i class="ph ph-database"
+                        style="font-size: 32px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Integrações e Dados</h3>
+                    <ul>
+                        <li><i class="ph ph-check-circle"></i> Pipelines ETL/ELT</li>
+                        <li><i class="ph ph-check-circle"></i> APIs REST/GraphQL</li>
+                        <li><i class="ph ph-check-circle"></i> Bancos de Dados e Big Data</li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-outline">Quero conversar</a>
+                </div>
+            </div>
+
+            <div class="extras text-center fade-in" style="margin-top: 40px;">
+                <p style="color: var(--text-muted);">Também ofereço: <strong style="color: #fff;">Consultoria
+                        Estratégica</strong> e <strong style="color: #fff;">Treinamento de Equipes</strong>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section-padding">
+        <div class="container">
+            <h2 class="fade-in text-center">Como Trabalho</h2>
+            <div class="process-steps fade-in">
+                <div class="step">
+                    <div class="step-number"><i class="ph ph-magnifying-glass"></i></div>
+                    <h4>Descoberta</h4>
+                </div>
+                <div class="step">
+                    <div class="step-number"><i class="ph ph-blueprint"></i></div>
+                    <h4>Arquitetura</h4>
+                </div>
+                <div class="step">
+                    <div class="step-number"><i class="ph ph-code"></i></div>
+                    <h4>Construção</h4>
+                </div>
+                <div class="step">
+                    <div class="step-number"><i class="ph ph-rocket-launch"></i></div>
+                    <h4>Deploy</h4>
+                </div>
+                <div class="step">
+                    <div class="step-number"><i class="ph ph-chart-line"></i></div>
+                    <h4>Monitoramento</h4>
+                </div>
+            </div>
+            <p class="text-center" style="margin-top: 30px; font-size: 0.9rem; color: var(--text-muted);">
+                Reforçando: versionamento, logs, observabilidade, backups, controle de acesso e LGPD.
+            </p>
+        </div>
+    </section>
+
+    <!-- MODELS OF ENGAGEMENT -->
+    <section id="models" class="section-padding" style="background: var(--surface-color);">
+        <div class="container">
+            <h2 class="text-center fade-in">Modelos de Atuação</h2>
+            <div class="services-grid models-grid"
+                style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); justify-content: center; max-width: 1320px; margin: 40px auto 0;">
+                <!-- Model 1 -->
+                <div class="card fade-in" style="border-color: var(--primary-color);">
+                    <h3>Consultoria & Treinamento</h3>
+                    <ul>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Diagnóstico técnico</li>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Roadmap e arquitetura</li>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Mentoria e formação do time
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-outline"
+                        style="width: 100%; text-align: center;">Quero um diagnóstico</a>
+                </div>
+                <!-- Model 2 -->
+                <div class="card fade-in" style="border-color: var(--primary-color);">
+                    <h3>Projeto Dedicado</h3>
+                    <ul>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Construção e implantação
+                        </li>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Integrações e dados</li>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Evolução e suporte</li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-primary"
+                        style="width: 100%; text-align: center;">Quero tirar do papel</a>
+                </div>
+                <!-- Model 3 -->
+                <div class="card fade-in" style="border-color: var(--primary-color);">
+                    <h3>Comprar uma Licença de Software</h3>
+                    <ul>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Utilizar uma licença</li>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Implementar um SaaS</li>
+                        <li><i class="ph ph-check" style="color:var(--primary-color)"></i> Mudar o tipo de licença</li>
+                    </ul>
+                    <a href="https://wa.me/5538991307746" class="btn btn-outline"
+                        style="width: 100%; text-align: center;">Quero falar sobre licença</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <h2 class="fade-in text-center">Portfólio / Cases</h2>
+            <div class="portfolio-slider-container fade-in">
+                <button class="slider-btn prev" id="prevSlide">❮</button>
+                <div class="slider-track-container">
+                    <ul class="slider-track">
+
+                        <!-- Project 1: AgroSupply -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/AgroSupply/1.png" alt="AgroSupply"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>AgroSupply</h4>
+                                    <p class="project-desc">Plataforma de gestão de suprimentos e logística no
+                                        agronegócio.</p>
+                                    <div class="tech-tags">
+                                        <span>React</span><span>Node.js</span><span>SQL</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('AgroSupply')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Project 2: SmartTank -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/SmartTank/1.png" alt="SmartTank"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>SmartTank</h4>
+                                    <p class="project-desc">Monitoramento IoT de tanques em tempo real.</p>
+                                    <div class="tech-tags">
+                                        <span>IoT</span><span>AWS</span><span>TimeSeries</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('SmartTank')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Project 3: Solaristech -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/Solaristech/Capa%20Solaristech.png" alt="Solaristech"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>Solaristech</h4>
+                                    <p class="project-desc">Gestão inteligente de usinas solares e eficiência
+                                        energética.</p>
+                                    <div class="tech-tags">
+                                        <span>Python</span><span>Dash</span><span>Analytics</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('Solaristech')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Project 4: CargoVision -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/cargovision/capa%20-%20CargoVision.png" alt="CargoVision"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>CargoVision</h4>
+                                    <p class="project-desc">Visão computacional para inspeção e logística.</p>
+                                    <div class="tech-tags">
+                                        <span>OpenCV</span><span>YOLO</span><span>Python</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('CargoVision')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Project 5: Finance Hanna -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/Finance%20Hanna/1.png" alt="Finance Hanna"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>Finance Hanna</h4>
+                                    <p class="project-desc">Sistema financeiro para controle de fluxo de caixa.</p>
+                                    <div class="tech-tags">
+                                        <span>React</span><span>Firebase</span><span>Finance</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('FinanceHanna')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Project 6: Controle de Vendas -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/Controle%20de%20Vendas/1.png" alt="Controle de Vendas"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>Controle de Vendas</h4>
+                                    <p class="project-desc">Dashboard de BI para KPIs comerciais.</p>
+                                    <div class="tech-tags">
+                                        <span>PowerBI</span><span>DataViz</span><span>SQL</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('ControleVendas')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Project 7: Colheita de Milho -->
+                        <li class="slide">
+                            <div class="slide-content project-card">
+                                <div class="project-thumb">
+                                    <img src="portfólio/Colheita%20de%20Milho/1.png" alt="Colheita de Milho"
+                                        onerror="this.src='Imagens/placeholder.png'">
+                                </div>
+                                <div class="project-info">
+                                    <h4>Colheita de Milho</h4>
+                                    <p class="project-desc">Otimização de safras com análise de dados.</p>
+                                    <div class="tech-tags">
+                                        <span>Python</span><span>Pandas</span><span>Agro</span>
+                                    </div>
+                                    <button class="btn btn-outline btn-sm" onclick="openProject('ColheitaMilho')">Ver
+                                        Detalhes</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="slider-btn next" id="nextSlide">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProjectModal()">×</button>
+
+            <div class="modal-body">
+                <div class="modal-gallery">
+                    <div class="gallery-wrapper">
+                        <button class="modal-nav prev" onclick="navigateModal(-1)">&#10094;</button>
+                        <div class="main-media" id="modal-main-media">
+                            <!-- Main Image/Video here -->
+                        </div>
+                        <button class="modal-nav next" onclick="navigateModal(1)">&#10095;</button>
+                    </div>
+                    <div class="thumbs-strip" id="modal-thumbs">
+                        <!-- Thumbnails here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUIZ WIZARD -->
+    <section id="quiz-section" class="section-padding">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 10px;">Faça uma estimativa do seu projeto</h2>
+            <p class="text-center" style="margin-bottom: 30px;">Responda algumas perguntas e receba uma análise
+                preliminar de complexidade e prazo.</p>
+
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+
+            <!-- Step 1: Type -->
+            <div class="quiz-step active" data-step="1">
+                <h3>1. Qual o tipo de solução?</h3>
+                <div class="quiz-options" data-key="type">
+                    <button class="option-btn" data-value="saas">SaaS (Software como Serviço)</button>
+                    <button class="option-btn" data-value="internal">App Interno de Gestão</button>
+                    <button class="option-btn" data-value="dashboard">Dashboard + Dados</button>
+                    <button class="option-btn" data-value="automation">Automação</button>
+                    <button class="option-btn" data-value="ai_agent">IA / Agentes Inteligentes</button>
+                </div>
+                <div class="quiz-nav">
+                    <div></div>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 2: Segment -->
+            <div class="quiz-step" data-step="2">
+                <h3>2. Qual o seu segmento?</h3>
+                <div class="quiz-options" data-key="segment">
+                    <button class="option-btn" data-value="construction">Empreiteira</button>
+                    <button class="option-btn" data-value="industry">Indústria</button>
+                    <button class="option-btn" data-value="agro">Agro</button>
+                    <button class="option-btn" data-value="retail">Comércio/Varejo</button>
+                    <button class="option-btn" data-value="other">Outro</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Users -->
+            <div class="quiz-step" data-step="3">
+                <h3>3. Quantos usuários utilizarão?</h3>
+                <div class="quiz-options" data-key="users">
+                    <button class="option-btn" data-value="1-5">1 - 5 usuários</button>
+                    <button class="option-btn" data-value="6-20">6 - 20 usuários</button>
+                    <button class="option-btn" data-value="21-100">21 - 100 usuários</button>
+                    <button class="option-btn" data-value="100+">100+ usuários</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Integrations -->
+            <div class="quiz-step" data-step="4">
+                <h3>4. Necessidade de Integrações (APIs/Sistemas)?</h3>
+                <div class="quiz-options" data-key="integrations">
+                    <button class="option-btn" data-value="none">Nenhuma</button>
+                    <button class="option-btn" data-value="1-2">1 - 2 integrações</button>
+                    <button class="option-btn" data-value="3-5">3 - 5 integrações</button>
+                    <button class="option-btn" data-value="6+">6+ integrações complexas</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 5: Data -->
+            <div class="quiz-step" data-step="5">
+                <h3>5. Como estão os dados hoje?</h3>
+                <div class="quiz-options" data-key="data_status">
+                    <button class="option-btn" data-value="spreadsheets">Planilhas variadas</button>
+                    <button class="option-btn" data-value="db_exists">Já existe banco de dados</button>
+                    <button class="option-btn" data-value="scratch">Precisa estruturar do zero</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 6: AI -->
+            <div class="quiz-step" data-step="6">
+                <h3>6. Precisa de Inteligência Artificial?</h3>
+                <div class="quiz-options" data-key="ai">
+                    <button class="option-btn" data-value="no">Não, apenas software convencional</button>
+                    <button class="option-btn" data-value="recs">Sim, Recomendações</button>
+                    <button class="option-btn" data-value="agent">Sim, Agentes LLM (Chatbots)</button>
+                    <button class="option-btn" data-value="vision">Sim, Visão Computacional</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 7: Deadline -->
+            <div class="quiz-step" data-step="7">
+                <h3>7. Qual a expectativa de prazo?</h3>
+                <div class="quiz-options" data-key="deadline">
+                    <button class="option-btn" data-value="30d">Até 30 dias</button>
+                    <button class="option-btn" data-value="60-90d">60 - 90 dias</button>
+                    <button class="option-btn" data-value="3-6m">3 - 6 meses</button>
+                    <button class="option-btn" data-value="6m+">6 meses +</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Próximo →</button>
+                </div>
+            </div>
+
+            <!-- Step 8: Maturity -->
+            <div class="quiz-step" data-step="8">
+                <h3>8. Maturidade da ideia?</h3>
+                <div class="quiz-options" data-key="maturity">
+                    <button class="option-btn" data-value="idea">Apenas uma ideia</button>
+                    <button class="option-btn" data-value="draft">Tenho rascunho/desenho</button>
+                    <button class="option-btn" data-value="spec">Totalmente especificado</button>
+                    <button class="option-btn" data-value="exists">Já existe, precisa evoluir</button>
+                </div>
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" onclick="prevQuizStep()">← Voltar</button>
+                    <button class="btn btn-primary" onclick="nextQuizStep()">Ver Resultado</button>
+                </div>
+            </div>
+
+            <!-- Result Step -->
+            <div class="quiz-step" id="quiz-result">
+                <h3>Análise do Projeto</h3>
+
+                <!-- Complexity Flags -->
+                <div class="complexity-flags">
+                    <div id="flag-low" class="flag flag-green">Baixa Complexidade</div>
+                    <div id="flag-med" class="flag flag-yellow">Média Complexidade</div>
+                    <div id="flag-high" class="flag flag-red">Alta Complexidade</div>
+                </div>
+
+                <div class="result-card">
+                    <h3 id="res-title" style="color:var(--primary-color); margin-bottom: 5px; font-size: 1.4rem;">
+                        Calculando...</h3>
+                    <p id="res-desc"
+                        style="font-size: 0.95rem; margin-bottom: 20px; color: var(--text-muted); line-height: 1.4;">
+                    </p>
+
+                    <div style="margin-bottom: 20px;">
+                        <div class="market-price" style="border-color: var(--primary-color);">
+                            <h4>Prazo Estimado</h4>
+                            <div class="price-value" id="res-time" style="color: var(--primary-color);">...</div>
+                        </div>
+                    </div>
+
+                    <div class="result-item"><strong>Tech Stack:</strong> <span id="res-tech">...</span></div>
+                    <div class="result-item"><strong>Equipe:</strong> <span id="res-team">...</span></div>
+
+                    <div style="margin: 25px 0; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 20px;">
+                        <h4 style="margin-bottom: 15px; color: #fff;">Etapas da Entrega:</h4>
+                        <ul class="process-list" id="res-process">
+                            <!-- JS populated -->
+                        </ul>
+                    </div>
+                </div>
+
+                <p style="font-size: 0.9rem; margin-bottom: 30px; text-align: center; color: var(--text-muted);">
+                    *Isso é uma estimativa de mercado. Comigo, você tem <strong>consultoria direta</strong> e
+                    <strong>garantia de entrega</strong>.
+                </p>
+
+                <div class="text-center">
+                    <button id="btn-send-whatsapp" class="btn btn-primary cta-highlight">
+                        SOLICITAR PROPOSTA NO WHATSAPP <i class="ph ph-whatsapp-logo"
+                            style="margin-left:8px; vertical-align:middle;"></i>
+                    </button>
+                    <p style="margin-top: 15px; font-size: 0.8rem; opacity: 0.7;">Você enviará o resumo acima para
+                        iniciar a conversa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUTHORITY (Socials) -->
+    <section class="section-padding" style="background: var(--surface-color);">
+        <div class="container text-center">
+            <h2 class="fade-in">Conteúdo e Projetos Públicos</h2>
+            <p class="fade-in" style="margin-bottom: 40px; color: var(--text-muted);">Publico projetos, estudos e
+                aplicações práticas.</p>
+            <div class="social-cards fade-in">
+                <a href="https://www.linkedin.com/in/mari%C3%A9lio-fernandes-187a6631b/" target="_blank"
+                    class="social-card">
+                    <i class="ph ph-linkedin-logo"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/marielio901" target="_blank" class="social-card">
+                    <i class="ph ph-github-logo"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.youtube.com/@Marielio.Fernandes" target="_blank" class="social-card">
+                    <i class="ph ph-youtube-logo"></i>
+                    <span>YouTube</span>
+                </a>
+                <a href="https://www.instagram.com/mario.datascience?igsh=bm91cjZ4c2RtOGtt" target="_blank"
+                    class="social-card">
+                    <i class="ph ph-instagram-logo"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / DIAGNOSIS -->
+    <section id="contact" class="section-padding">
+        <div class="container contact-container" style="max-width: 600px;">
+            <h2 class="text-center fade-in">Receba um Diagnóstico</h2>
+            <form id="lead-form" class="fade-in">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail Corporativo" required>
+                <input type="tel" name="whatsapp" placeholder="WhatsApp" required>
+                <input type="text" name="company" placeholder="Empresa / Área" required>
+                <textarea name="message" rows="4" placeholder="Conte brevemente sobre o seu desafio..."
+                    required></textarea>
+                <!-- Honeypot -->
+                <input type="text" name="honeypot" style="display:none;">
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Solicitar Diagnóstico</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta section-padding">
+        <div class="container">
+            <h2>Vamos tirar seu projeto do papel?</h2>
+            <a href="https://wa.me/5538991307746" class="btn btn-primary final-cta-button"
+                style="font-size: 1.2rem; padding: 20px 40px; margin-top: 20px;">
+                Chamar no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <img src="Imagens/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-main">Mariélio<span class="logo-dot">.</span></span>
+                    <span class="logo-sub">Data Scientist<br>&amp; Systems</span>
+                </div>
+            </div>
+            <div class="social-links" style="margin-top: 20px;">
+                <a href="https://wa.me/5538991307746" target="_blank"><i class="ph ph-whatsapp-logo"></i></a>
+                <a href="mailto:marieliofernandes637@gmail.com"><i class="ph ph-envelope-simple"></i></a>
+                <a href="https://www.linkedin.com/in/mari%C3%A9lio-fernandes-187a6631b/" target="_blank"><i
+                        class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.instagram.com/mario.datascience?igsh=bm91cjZ4c2RtOGtt" target="_blank"><i
+                        class="ph ph-instagram-logo"></i></a>
+            </div>
+            <p style="margin-top: 20px;">&copy; 2026 MF Data Scientist &amp; Systems. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed WhatsApp -->
+    <a href="https://wa.me/5538991307746" class="btn-whatsapp-fixed" target="_blank" aria-label="Falar no WhatsApp">
+        <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <script src="app.js?v=20260208-ytfix2"></script>
+</body>
+
+</html>
