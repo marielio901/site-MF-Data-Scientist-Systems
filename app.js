@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             about: {
                 heading: 'Quem sou',
                 lead: 'Sou Mariélio Fernandes, Cientista de Dados:',
-                body: 'Construo soluções orientadas a dados e IA para reduzir ineficiência, padronizar rotinas e melhorar a tomada de decisão em operações reais.',
+                body: 'Cientista de Dados orientado a lucro e eficiência operacional. Desenvolvo algoritmos que otimizam preços, reduzem perdas e maximizam margens com base em evidências, não em intuição. Estruturo problemas complexos de negócio, identifico oportunidades ocultas nos dados e entrego modelos que apoiam decisões estratégicas e aumentam a competitividade da empresa. Meu foco é simples transformar dados em resultado financeiro mensurável.',
                 cta: 'Ver portfólio',
                 detailTitles: ['Segmentos atendidos', 'Foco de resultado', 'Stack de trabalho', 'Padrão de entrega'],
                 detailBodies: [
