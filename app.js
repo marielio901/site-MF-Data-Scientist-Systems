@@ -74,59 +74,120 @@ document.addEventListener('DOMContentLoaded', () => {
                 featureTitles: ['Automação & Data Apps', 'ETL/ELT e Integrações', 'Modelos Preditivos', 'LLMs e Chatbots']
             },
             services: {
-                heading: 'Serviços',
+                heading: 'Soluções tecnológicas orientadas a resultados',
                 cards: [
                     {
-                        title: 'Desenvolvimento de Software',
-                        items: ['Web Apps e SaaS', 'Aplicativos Internos', 'Dashboards orientados a dados'],
-                        cta: 'Quero conversar'
+                        title: 'Desenvolvimento de Software — Sistemas sob medida para operações críticas',
+                        items: [
+                            'Automação de processos internos e operacionais.',
+                            'Integração entre sistemas isolados e legados.',
+                            'Redução de retrabalho, erros e tarefas manuais.',
+                            'Plataformas escaláveis preparadas para crescimento.'
+                        ],
+                        cta: 'Solicitar diagnóstico'
                     },
                     {
-                        title: 'Data Science',
-                        items: ['Modelos Preditivos', 'Otimização de Processos', 'Visão Computacional'],
-                        cta: 'Quero conversar'
+                        title: 'Data Science — Modelos analíticos para decisões estratégicas',
+                        items: [
+                            'Previsão de demanda, receita e comportamento.',
+                            'Otimização de custos, preços e estoques.',
+                            'Identificação de riscos e oportunidades ocultas.',
+                            'Insights acionáveis a partir de grandes volumes de dados.'
+                        ],
+                        cta: 'Solicitar diagnóstico'
                     },
                     {
-                        title: 'Inteligência Artificial',
-                        items: ['LLMs e Chatbots', 'Agentes Autônomos', 'Automação Inteligente'],
-                        cta: 'Quero conversar'
+                        title: 'Inteligência Artificial — Automação inteligente aplicada ao negócio',
+                        items: [
+                            'Assistentes corporativos e agentes autônomos.',
+                            'Automação de tarefas repetitivas e operacionais.',
+                            'Análise inteligente de documentos e dados.',
+                            'Redução de custos operacionais com IA.'
+                        ],
+                        cta: 'Solicitar diagnóstico'
                     },
                     {
-                        title: 'Integrações e Dados',
-                        items: ['Pipelines ETL/ELT', 'APIs REST/GraphQL', 'Bancos de Dados e Big Data'],
-                        cta: 'Quero conversar'
+                        title: 'Integrações e Dados — Arquitetura e governança de dados empresariais',
+                        items: [
+                            'Eliminação de silos e dados desconectados.',
+                            'Pipelines ETL/ELT confiáveis e escaláveis.',
+                            'Integração entre ERP, CRM e sistemas internos.',
+                            'Dados consistentes para decisões estratégicas.'
+                        ],
+                        cta: 'Solicitar diagnóstico'
                     }
                 ],
-                extras: 'Também ofereço: <strong style="color: #fff;">Consultoria Estratégica</strong> e <strong style="color: #fff;">Treinamento de Equipes</strong>.'
+                extras: 'Também ofereço consultoria estratégica, diagnóstico tecnológico e capacitação de equipes para acelerar a transformação digital com segurança e impacto real.'
             },
             process: {
-                heading: 'Como Trabalho',
-                steps: ['Descoberta', 'Arquitetura', 'Construção', 'Deploy', 'Monitoramento'],
-                note: 'Reforçando: versionamento, logs, observabilidade, backups, controle de acesso e LGPD.'
+                heading: 'Metodologia de entrega de projetos',
+                subtitle: 'Do diagnóstico inicial ao monitoramento contínuo, cada etapa é projetada para reduzir riscos, garantir qualidade e assegurar resultados sustentáveis.',
+                steps: [
+                    'Diagnóstico estratégico',
+                    'Arquitetura e planejamento',
+                    'Desenvolvimento e validação',
+                    'Implantação segura',
+                    'Monitoramento e evolução'
+                ],
+                descriptions: [
+                    'Entendimento aprofundado do negócio, objetivos e restrições antes de qualquer decisão técnica.',
+                    'Definição da solução com foco em escalabilidade, segurança e custo total de propriedade.',
+                    'Construção incremental com testes contínuos e controle rigoroso de qualidade.',
+                    'Publicação controlada com versionamento, rollback e proteção operacional.',
+                    'Acompanhamento contínuo para estabilidade, desempenho e melhorias futuras.'
+                ],
+                note: 'Cada projeto é desenvolvido com práticas de engenharia profissional, incluindo versionamento, testes, observabilidade, backups, segurança de acesso e conformidade com LGPD.'
             },
             models: {
-                heading: 'Modelos de Atuação',
+                heading: 'Como implementar soluções de dados e IA na sua empresa',
+                subtitle: 'Escolha o nível de suporte ideal para gerar impacto financeiro rápido e sustentável.',
                 cards: [
                     {
-                        title: 'Consultoria & Treinamento',
-                        items: ['Diagnóstico técnico', 'Roadmap e arquitetura', 'Mentoria e formação do time'],
-                        cta: 'Quero um diagnóstico'
+                        title: 'Diagnóstico Estratégico e Capacitação',
+                        description: 'Descubra onde sua empresa perde dinheiro, quais oportunidades estão ocultas nos dados e como capturar valor com baixo risco.',
+                        items: [
+                            'Identificação de oportunidades de lucro e redução de custos.',
+                            'Plano de ação priorizado por impacto financeiro.',
+                            'Capacitação do time para execução autônoma.'
+                        ],
+                        note: 'Ideal para empresas que desejam começar com baixo risco.',
+                        cta: 'AGENDAR DIAGNÓSTICO EXECUTIVO'
                     },
                     {
-                        title: 'Projeto Dedicado',
-                        items: ['Construção e implantação', 'Integrações e dados', 'Evolução e suporte'],
-                        cta: 'Quero tirar do papel'
+                        title: 'Solução Sob Medida Implementada',
+                        description: 'Do problema ao sistema em produção, com impacto financeiro mensurável.',
+                        items: [
+                            'Construção completa da solução orientada ao negócio.',
+                            'Integração com sistemas e dados existentes.',
+                            'Evolução contínua e suporte estratégico.'
+                        ],
+                        note: 'Ideal para empresas que precisam de resultado rápido e completo.',
+                        badge: 'Mais escolhido por empresas em transformação digital',
+                        cta: 'SOLICITAR PROPOSTA DO PROJETO'
                     },
                     {
-                        title: 'Comprar uma Licença de Software',
-                        items: ['Utilizar uma licença', 'Implementar um SaaS', 'Mudar o tipo de licença'],
-                        cta: 'Quero falar sobre licença'
+                        title: 'Plataforma Pronta para Uso',
+                        description: 'Implante soluções avançadas rapidamente, sem necessidade de desenvolvimento interno.',
+                        items: [
+                            'Software pronto com implementação acelerada.',
+                            'Escalável e orientado a operação real.',
+                            'Atualizações e suporte contínuo.'
+                        ],
+                        note: 'Ideal para empresas que desejam escalar com menor custo.',
+                        cta: 'VER OPÇÕES E VALORES'
                     }
+                ],
+                trustPoints: [
+                    'Soluções focadas em aumento de margem e eficiência operacional.',
+                    'Atendimento direto com especialista, sem intermediários.',
+                    'Projetos orientados a impacto financeiro mensurável.'
                 ]
             },
             portfolio: {
                 heading: 'Portfólio / Cases',
-                viewDetails: 'Ver Detalhes'
+                viewDetails: 'Ver Detalhes',
+                viewVideo: 'Vídeo',
+                viewDemo: 'Demo'
             },
             quiz: {
                 heading: 'Faça uma estimativa do seu projeto',
@@ -204,59 +265,120 @@ document.addEventListener('DOMContentLoaded', () => {
                 featureTitles: ['Automation & Data Apps', 'ETL/ELT and Integrations', 'Predictive Models', 'LLMs and Chatbots']
             },
             services: {
-                heading: 'Services',
+                heading: 'Technology solutions focused on business outcomes',
                 cards: [
                     {
-                        title: 'Software Development',
-                        items: ['Web Apps and SaaS', 'Internal Applications', 'Data-driven dashboards'],
-                        cta: 'Let\'s talk'
+                        title: 'Software Development — Tailored systems for critical operations',
+                        items: [
+                            'Automation of internal and operational processes.',
+                            'Integration between isolated and legacy systems.',
+                            'Reduction of rework, errors, and manual tasks.',
+                            'Scalable platforms prepared for growth.'
+                        ],
+                        cta: 'Request diagnosis'
                     },
                     {
-                        title: 'Data Science',
-                        items: ['Predictive Models', 'Process Optimization', 'Computer Vision'],
-                        cta: 'Let\'s talk'
+                        title: 'Data Science — Analytical models for strategic decisions',
+                        items: [
+                            'Forecasting for demand, revenue, and behavior.',
+                            'Optimization of costs, pricing, and inventory.',
+                            'Identification of hidden risks and opportunities.',
+                            'Actionable insights from large data volumes.'
+                        ],
+                        cta: 'Request diagnosis'
                     },
                     {
-                        title: 'Artificial Intelligence',
-                        items: ['LLMs and Chatbots', 'Autonomous Agents', 'Intelligent Automation'],
-                        cta: 'Let\'s talk'
+                        title: 'Artificial Intelligence — Intelligent automation applied to business',
+                        items: [
+                            'Corporate assistants and autonomous agents.',
+                            'Automation of repetitive and operational tasks.',
+                            'Intelligent analysis of documents and data.',
+                            'Reduction of operational costs with AI.'
+                        ],
+                        cta: 'Request diagnosis'
                     },
                     {
-                        title: 'Integrations and Data',
-                        items: ['ETL/ELT Pipelines', 'REST/GraphQL APIs', 'Databases and Big Data'],
-                        cta: 'Let\'s talk'
+                        title: 'Integrations and Data — Enterprise data architecture and governance',
+                        items: [
+                            'Elimination of silos and disconnected data.',
+                            'Reliable and scalable ETL/ELT pipelines.',
+                            'Integration between ERP, CRM, and internal systems.',
+                            'Consistent data for strategic decision-making.'
+                        ],
+                        cta: 'Request diagnosis'
                     }
                 ],
-                extras: 'I also offer: <strong style="color: #fff;">Strategic Consulting</strong> and <strong style="color: #fff;">Team Training</strong>.'
+                extras: 'I also offer strategic consulting, technology diagnosis, and team enablement to accelerate digital transformation with security and measurable impact.'
             },
             process: {
-                heading: 'How I Work',
-                steps: ['Discovery', 'Architecture', 'Build', 'Deployment', 'Monitoring'],
-                note: 'Always included: versioning, logs, observability, backups, access control, and privacy compliance.'
+                heading: 'Project delivery methodology',
+                subtitle: 'From initial diagnosis to continuous monitoring, each stage is designed to reduce risks, ensure quality, and deliver sustainable results.',
+                steps: [
+                    'Strategic diagnosis',
+                    'Architecture and planning',
+                    'Development and validation',
+                    'Secure deployment',
+                    'Monitoring and evolution'
+                ],
+                descriptions: [
+                    'Deep assessment of business context, objectives, and constraints before any technical decision.',
+                    'Solution definition focused on scalability, security, and total cost of ownership.',
+                    'Incremental build with continuous testing and strict quality control.',
+                    'Controlled release with versioning, rollback strategy, and operational protection.',
+                    'Continuous follow-up for stability, performance, and future improvements.'
+                ],
+                note: 'Each project is delivered with professional engineering practices, including versioning, testing, observability, backups, access security, and privacy compliance.'
             },
             models: {
-                heading: 'Engagement Models',
+                heading: 'How to implement data and AI solutions in your company',
+                subtitle: 'Choose the right support level to generate fast and sustainable financial impact.',
                 cards: [
                     {
-                        title: 'Consulting & Training',
-                        items: ['Technical diagnosis', 'Roadmap and architecture', 'Mentoring and team enablement'],
-                        cta: 'I want a diagnosis'
+                        title: 'Strategic Diagnosis and Enablement',
+                        description: 'Identify where money is being lost, uncover hidden opportunities in your data, and capture value with low risk.',
+                        items: [
+                            'Identify profit opportunities and cost reduction levers.',
+                            'Action plan prioritized by financial impact.',
+                            'Team enablement for autonomous execution.'
+                        ],
+                        note: 'Ideal for companies that want to start with lower risk.',
+                        cta: 'SCHEDULE AN EXECUTIVE DIAGNOSIS'
                     },
                     {
-                        title: 'Dedicated Project',
-                        items: ['Build and deployment', 'Integrations and data', 'Continuous evolution and support'],
-                        cta: 'I want to build it'
+                        title: 'Tailored Solution Implemented',
+                        description: 'From business problem to production system, with measurable financial impact.',
+                        items: [
+                            'End-to-end build aligned to business outcomes.',
+                            'Integration with existing systems and data.',
+                            'Continuous evolution and strategic support.'
+                        ],
+                        note: 'Ideal for companies that need fast and complete outcomes.',
+                        badge: 'Most chosen by companies in digital transformation',
+                        cta: 'REQUEST A PROJECT PROPOSAL'
                     },
                     {
-                        title: 'Buy a Software License',
-                        items: ['Use an existing license', 'Implement a SaaS', 'Change the license model'],
-                        cta: 'I want to discuss licensing'
+                        title: 'Ready-to-Use Platform',
+                        description: 'Deploy advanced solutions quickly, without the need for internal development.',
+                        items: [
+                            'Ready software with accelerated implementation.',
+                            'Scalable and designed for real operations.',
+                            'Ongoing updates and support.'
+                        ],
+                        note: 'Ideal for companies that want to scale at lower cost.',
+                        cta: 'SEE OPTIONS AND PRICING'
                     }
+                ],
+                trustPoints: [
+                    'Solutions focused on margin growth and operational efficiency.',
+                    'Direct service with a specialist, no intermediaries.',
+                    'Projects oriented to measurable financial impact.'
                 ]
             },
             portfolio: {
                 heading: 'Portfolio / Cases',
-                viewDetails: 'View Details'
+                viewDetails: 'View Details',
+                viewVideo: 'Video',
+                viewDemo: 'Demo'
             },
             quiz: {
                 heading: 'Get a project estimate',
@@ -473,14 +595,20 @@ document.addEventListener('DOMContentLoaded', () => {
         setHtml('#services .extras p', content.services.extras);
 
         setText('#process h2', content.process.heading);
+        setText('#process .process-subtitle', content.process.subtitle);
         const processSteps = document.querySelectorAll('#process .step h4');
         content.process.steps.forEach((step, index) => {
             if (processSteps[index]) processSteps[index].textContent = step;
         });
-        setText('#process .container > p', content.process.note);
+        const processDescriptions = document.querySelectorAll('#process .step .step-desc');
+        content.process.descriptions?.forEach((description, index) => {
+            if (processDescriptions[index]) processDescriptions[index].textContent = description;
+        });
+        setText('#process .process-note', content.process.note);
 
         setText('#models h2', content.models.heading);
-        const modelCards = document.querySelectorAll('#models .services-grid .card');
+        setText('#models .models-subtitle', content.models.subtitle);
+        const modelCards = document.querySelectorAll('#models .model-card');
         modelCards.forEach((card, index) => {
             const cardData = content.models.cards[index];
             if (!cardData) return;
@@ -488,13 +616,34 @@ document.addEventListener('DOMContentLoaded', () => {
             const titleEl = card.querySelector('h3');
             if (titleEl) titleEl.textContent = cardData.title;
 
+            const descriptionEl = card.querySelector('.model-card-description');
+            if (descriptionEl) descriptionEl.textContent = cardData.description;
+
             const listItems = card.querySelectorAll('li');
             cardData.items.forEach((item, itemIndex) => {
                 preserveIconAndSetText(listItems[itemIndex], item);
             });
 
+            const noteEl = card.querySelector('.model-card-note');
+            if (noteEl) noteEl.textContent = cardData.note;
+
+            const badgeEl = card.querySelector('.model-badge');
+            if (badgeEl) {
+                if (cardData.badge) {
+                    preserveIconAndSetText(badgeEl, cardData.badge);
+                    badgeEl.style.display = 'inline-flex';
+                } else {
+                    badgeEl.style.display = 'none';
+                }
+            }
+
             const cta = card.querySelector('a');
             if (cta) cta.textContent = cardData.cta;
+        });
+
+        const modelTrustPoints = document.querySelectorAll('#models .models-trust-list li');
+        content.models.trustPoints.forEach((point, index) => {
+            preserveIconAndSetText(modelTrustPoints[index], point);
         });
 
         setText('#portfolio h2', content.portfolio.heading);
@@ -823,13 +972,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 team.push('Computer Vision Engineer');
             }
 
-            // Final Time String
-            const leadTime = currentLanguage === 'en'
-                ? `${minWeeks} - ${maxWeeks} weeks`
-                : `${minWeeks} - ${maxWeeks} semanas`;
-
             // --- SCORE TO LABEL ---
-            // New Thresholds: Low <= 8, Medium <= 14, High > 14
+            // Thresholds: Low <= 8, Medium <= 15, High > 15
             if (complexityScore <= 8) {
                 complexityKey = 'low';
             } else if (complexityScore <= 15) {
@@ -838,6 +982,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 complexityKey = 'high';
             }
             const complexityLabel = runtime.complexity[complexityKey];
+            const leadTimeByComplexity = currentLanguage === 'en'
+                ? {
+                    low: '1 week',
+                    medium: '15 to 30 days',
+                    high: '1 to 2 months'
+                }
+                : {
+                    low: '1 semana',
+                    medium: '15 a 30 dias',
+                    high: '1 a 2 meses'
+                };
+            const leadTime = leadTimeByComplexity[complexityKey];
 
             // --- RENDER RESULTS ---
             document.getElementById('res-title').innerText = title;
@@ -968,124 +1124,119 @@ ${data.message}
     // --- PORTFOLIO MODAL LOGIC ---
     const projectsData = {
         AgroSupply: {
-            title: 'AgroSupply',
-            cardTitle: 'AgroSupply',
-            desc: 'Plataforma de gestão de suprimentos e logística no agronegócio.',
-            cardDesc: 'Plataforma de gestão de suprimentos e logística no agronegócio.',
-            techs: ['Python', 'Agente de IA', 'KPIs Supply Chain'],
-            cardTechs: ['Python', 'Agente de IA', 'KPIs Supply Chain'],
+            title: 'AgroSupply — ERP de Suprimentos Agrícolas com IA',
+            cardTitle: 'AgroSupply — ERP de Suprimentos Agrícolas com IA',
+            desc: 'AgroSupply é um ERP de suprimentos agrícolas que elimina rupturas de estoque, reduz desperdícios e aumenta a previsibilidade operacional. Centraliza compras, consumo, inventário e indicadores para decisões rápidas e redução do capital parado em insumos.',
+            cardDesc: 'AgroSupply é um ERP de suprimentos agrícolas que elimina rupturas de estoque, reduz desperdícios e aumenta a previsibilidade operacional. Centraliza compras, consumo, inventário e indicadores para decisões rápidas e redução do capital parado em insumos.',
+            techs: ['Python', 'Flask', 'LangChain', 'PostgreSQL'],
+            cardTechs: ['Python', 'Flask', 'LangChain', 'PostgreSQL'],
+            videoUrl: 'https://www.youtube.com/watch?v=gImBzFt9Tuw&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=1',
             details: {
-                desafio: 'Centralizar a gestão de compras e estoque de uma rede de distribuidoras agrícolas com dados descentralizados e falhas na reposição.',
-                solucao: 'Plataforma em Python com agente de IA e acompanhamento de KPIs de supply chain para apoiar decisões em tempo real.',
-                resultados: 'Redução de perdas por vencimento e maior agilidade no fluxo de aprovação de compras.'
+                desafio: 'Rupturas, desperdícios e capital parado em insumos reduziam margem e previsibilidade operacional.',
+                solucao: 'ERP de suprimentos com IA para centralizar compras, consumo, inventário e KPIs em uma única operação.',
+                resultados: 'Redução de perdas, decisões mais rápidas e maior controle financeiro sobre o estoque.'
             },
             images: [
-                'portfólio/AgroSupply/1.png', 'portfólio/AgroSupply/2.png', 'portfólio/AgroSupply/3.png',
-                'portfólio/AgroSupply/4.png', 'portfólio/AgroSupply/5.png', 'portfólio/AgroSupply/6.png',
-                'portfólio/AgroSupply/7.png', 'portfólio/AgroSupply/8.png', 'https://youtu.be/loxkmRurgD4'
+                'portfólio/Projeto 01 - AgroSupply/1.png', 'portfólio/Projeto 01 - AgroSupply/2.png',
+                'portfólio/Projeto 01 - AgroSupply/3.png', 'portfólio/Projeto 01 - AgroSupply/4.png',
+                'portfólio/Projeto 01 - AgroSupply/5.png', 'portfólio/Projeto 01 - AgroSupply/6.png',
+                'portfólio/Projeto 01 - AgroSupply/7.png', 'portfólio/Projeto 01 - AgroSupply/8.png',
+                'https://www.youtube.com/watch?v=gImBzFt9Tuw&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=1'
             ]
         },
-        SmartTank: {
-            title: 'SmartTank IoT',
-            cardTitle: 'SmartTank',
-            desc: 'MicroSaaS para gestão de combustíveis em empreiteiras e indústrias, com controle de estoque, alertas de reposição, inventários e fechamento mensal.',
-            cardDesc: 'MicroSaaS para gestão de combustíveis em empreiteiras e indústrias, com controle de estoque, alertas de reposição, inventários e fechamento mensal.',
-            techs: ['Python', 'Flask', 'SQL', 'SaaS', 'Gestão de Estoque'],
-            cardTechs: ['Python', 'Flask', 'SQL', 'SaaS', 'Gestão de Estoque'],
+        SolarisTech: {
+            title: 'SolarisTech — Gestão Inteligente de Micro Usinas Fotovoltaicas',
+            cardTitle: 'SolarisTech — Gestão Inteligente de Micro Usinas Fotovoltaicas',
+            desc: 'SolarisTech monitora micro usinas fotovoltaicas em tempo real para reduzir perdas, detectar falhas e maximizar a rentabilidade da geração. Une telemetria e dados climáticos para análise de eficiência, previsões e alertas operacionais.',
+            cardDesc: 'SolarisTech monitora micro usinas fotovoltaicas em tempo real para reduzir perdas, detectar falhas e maximizar a rentabilidade da geração. Une telemetria e dados climáticos para análise de eficiência, previsões e alertas operacionais.',
+            techs: ['Python', 'Flask', 'Machine Learning', 'Open-Meteo', 'Telemetria'],
+            cardTechs: ['Python', 'Flask', 'Machine Learning', 'Open-Meteo', 'Telemetria'],
+            videoUrl: 'https://www.youtube.com/watch?v=fIjS0CPNMe8&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=2',
             details: {
-                desafio: 'Monitorar nível, temperatura e pressão de tanques industriais e do agronegócio sem depender de conferência manual.',
-                solucao: 'Sensores MQTT enviam dados para AWS IoT Core e um backend em Python processa eventos e gera alertas automáticos.',
-                resultados: 'Mais previsibilidade operacional com alertas em tempo real para anomalias e níveis críticos.'
+                desafio: 'Perdas de geração e falhas eram identificadas tarde, reduzindo a rentabilidade das micro usinas.',
+                solucao: 'Monitoramento em tempo real com telemetria e clima para análise de eficiência, previsão e alertas operacionais.',
+                resultados: 'Menos perdas, resposta preventiva a incidentes e maior previsibilidade da receita energética.'
             },
             images: [
-                'portfólio/SmartTank/1.png', 'portfólio/SmartTank/2.png', 'portfólio/SmartTank/3.png'
+                'portfólio/Projeto 02 - Solaristech/Capa Solaristech.png', 'portfólio/Projeto 02 - Solaristech/2.png',
+                'portfólio/Projeto 02 - Solaristech/3.png', 'portfólio/Projeto 02 - Solaristech/4.png',
+                'portfólio/Projeto 02 - Solaristech/5.png', 'portfólio/Projeto 02 - Solaristech/6.png',
+                'portfólio/Projeto 02 - Solaristech/7.png', 'portfólio/Projeto 02 - Solaristech/8.png',
+                'https://www.youtube.com/watch?v=fIjS0CPNMe8&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=2'
             ]
         },
-        Solaristech: {
-            title: 'SolarisTech',
-            cardTitle: 'Solaristech',
-            desc: 'Plataforma para pequenos e médios produtores de usina fotovoltaica acompanharem produção (kWh/R$), perdas e clima com API e modelos preditivos.',
-            cardDesc: 'Plataforma para pequenos e médios produtores de usina fotovoltaica acompanharem produção (kWh/R$), perdas e clima com API e modelos preditivos.',
-            techs: ['Python', 'Flask', 'Open-Meteo', 'PostgreSQL', 'Machine Learning'],
-            cardTechs: ['Python', 'Flask', 'Open-Meteo', 'PostgreSQL', 'Machine Learning'],
+        StockPredict: {
+            title: 'StockPredict — Gestão Inteligente de Estoques com IA',
+            cardTitle: 'StockPredict — Gestão Inteligente de Estoques com IA',
+            desc: 'StockPredict reduz perdas por excesso e por falta de produtos usando IA para prever demanda e recomendar reposição. Ideal para melhorar giro de estoque, reduzir custo operacional e aumentar a precisão das decisões de compra.',
+            cardDesc: 'StockPredict reduz perdas por excesso e por falta de produtos usando IA para prever demanda e recomendar reposição. Ideal para melhorar giro de estoque, reduzir custo operacional e aumentar a precisão das decisões de compra.',
+            techs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
+            cardTechs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
+            videoUrl: 'https://www.youtube.com/watch?v=_GvT0B5Iv8w&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=3',
+            demoUrl: 'https://stockpredict-cpfvhyuc7rexcj9jgxnpyf.streamlit.app/',
             details: {
-                desafio: 'Consolidar dados de geração de múltiplos inversores e identificar perdas de performance com rapidez.',
-                solucao: 'Sistema com monitoramento climático, gestão de produção de KWH e modelos preditivos para antecipar desvios de geração.',
-                resultados: 'Mais eficiência energética com ações preventivas e maior controle operacional das usinas solares.'
+                desafio: 'Ruptura e excesso de estoque elevavam perdas de venda, custo operacional e capital imobilizado.',
+                solucao: 'IA para previsão de demanda e recomendação de reposição com base em histórico e sazonalidade.',
+                resultados: 'Mais giro, menor custo de armazenagem e decisões de compra com maior precisão.'
             },
             images: [
-                'portfólio/Solaristech/Capa Solaristech.png', 'portfólio/Solaristech/2.png',
-                'portfólio/Solaristech/3.png', 'portfólio/Solaristech/4.png', 'portfólio/Solaristech/5.png',
-                'portfólio/Solaristech/6.png', 'portfólio/Solaristech/7.png', 'portfólio/Solaristech/8.png'
+                'portfólio/Projeto 03 - stockpredict/1.png', 'portfólio/Projeto 03 - stockpredict/2.png',
+                'portfólio/Projeto 03 - stockpredict/3.png', 'portfólio/Projeto 03 - stockpredict/4.png',
+                'portfólio/Projeto 03 - stockpredict/5.png', 'portfólio/Projeto 03 - stockpredict/6.png',
+                'portfólio/Projeto 03 - stockpredict/7.png', 'portfólio/Projeto 03 - stockpredict/8.png',
+                'portfólio/Projeto 03 - stockpredict/9.png', 'portfólio/Projeto 03 - stockpredict/10.png',
+                'portfólio/Projeto 03 - stockpredict/12.png', 'portfólio/Projeto 03 - stockpredict/13.png',
+                'portfólio/Projeto 03 - stockpredict/14.png', 'portfólio/Projeto 03 - stockpredict/15.png',
+                'https://www.youtube.com/watch?v=_GvT0B5Iv8w&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=3'
             ]
         },
-        CargoVision: {
-            title: 'CargoVision AI',
-            cardTitle: 'CargoVision',
-            desc: 'Dashboard em Python/Flask + SQL para monitorar entregas e SLA com GeoMaps; regressão logística (classificação) e XGBoost para predição de entregas.',
-            cardDesc: 'Dashboard em Python/Flask + SQL para monitorar entregas e SLA com GeoMaps; regressão logística (classificação) e XGBoost para predição de entregas.',
-            techs: ['Python', 'Flask', 'SQL', 'GeoMaps', 'Regressão Logística', 'XGBoost'],
-            cardTechs: ['Python', 'Flask', 'SQL', 'GeoMaps', 'Regressão Logística', 'XGBoost'],
+        LogiChainAI: {
+            title: 'LogiChain AI — Gestão Inteligente do Ciclo de Vida de Contratos (CLM)',
+            cardTitle: 'LogiChain AI — Gestão Inteligente do Ciclo de Vida de Contratos (CLM)',
+            desc: 'LogiChain AI organiza e controla contratos do início ao fim para reduzir riscos, evitar perdas e aumentar governança. Automatiza versionamento, auditoria de status e indicadores de compliance e performance de fornecedores.',
+            cardDesc: 'LogiChain AI organiza e controla contratos do início ao fim para reduzir riscos, evitar perdas e aumentar governança. Automatiza versionamento, auditoria de status e indicadores de compliance e performance de fornecedores.',
+            techs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
+            cardTechs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
+            videoUrl: 'https://www.youtube.com/watch?v=TScFIPtYP1o&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=4',
+            demoUrl: 'https://logichain-ai-mhppnlcmpcftxmjy2zmftn.streamlit.app/',
             details: {
-                desafio: 'Automatizar controles de portaria logística para reduzir filas, falhas de validação e riscos de fraude.',
-                solucao: 'Plataforma com visão computacional, georreferência e plano de rotas para otimizar inspeções e deslocamentos.',
-                resultados: 'Gestão orientada por KPI\'s de transporte com mais eficiência operacional e melhor tomada de decisão logística.'
+                desafio: 'Contratos sem rastreabilidade aumentavam risco jurídico, perdas financeiras e baixa governança.',
+                solucao: 'CLM com IA para versionamento, auditoria de status e indicadores de compliance e performance.',
+                resultados: 'Redução de risco, menos perdas contratuais e gestão mais previsível de fornecedores.'
             },
             images: [
-                'portfólio/cargovision/capa - CargoVision.png', 'portfólio/cargovision/cargovision 2.png',
-                'portfólio/cargovision/cargovision 3.png',
-                'portfólio/cargovision/cargovision 5.png'
+                'portfólio/Projeto 04 - LogiChain AI/1.png', 'portfólio/Projeto 04 - LogiChain AI/2.png',
+                'portfólio/Projeto 04 - LogiChain AI/3.png', 'portfólio/Projeto 04 - LogiChain AI/4.png',
+                'portfólio/Projeto 04 - LogiChain AI/5.png', 'portfólio/Projeto 04 - LogiChain AI/6.png',
+                'portfólio/Projeto 04 - LogiChain AI/7.png', 'portfólio/Projeto 04 - LogiChain AI/8.png',
+                'portfólio/Projeto 04 - LogiChain AI/9.png', 'portfólio/Projeto 04 - LogiChain AI/10.png',
+                'portfólio/Projeto 04 - LogiChain AI/11.png', 'portfólio/Projeto 04 - LogiChain AI/12.png',
+                'https://www.youtube.com/watch?v=TScFIPtYP1o&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=4'
             ]
         },
-        FinanceHanna: {
-            title: 'Finance Hanna',
-            cardTitle: 'Finance Hanna',
-            desc: 'CRM para gestão de contas a pagar e a receber, com alertas de atraso, registro de pagamentos e dashboard para monitorar as rotinas do financeiro em tempo real.',
-            cardDesc: 'CRM para gestão de contas a pagar e a receber, com alertas de atraso, registro de pagamentos e dashboard para monitorar as rotinas do financeiro em tempo real.',
-            techs: ['Python', 'Flask', 'Dashboards', 'Operações Financeiras', 'Controle Fiscal'],
-            cardTechs: ['Python', 'Flask', 'Dashboards', 'Operações Financeiras', 'Controle Fiscal'],
+        HidroGestor: {
+            title: 'HidroGestor — Gestão Inteligente da Irrigação com IA',
+            cardTitle: 'HidroGestor — Gestão Inteligente da Irrigação com IA',
+            desc: 'HidroGestor otimiza irrigação com monitoramento de água, energia e clima para reduzir desperdícios e elevar produtividade. Traz planejamento baseado em dados meteorológicos e simulações para decisões mais seguras no campo.',
+            cardDesc: 'HidroGestor otimiza irrigação com monitoramento de água, energia e clima para reduzir desperdícios e elevar produtividade. Traz planejamento baseado em dados meteorológicos e simulações para decisões mais seguras no campo.',
+            techs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Open-Meteo', 'Telemetria', 'Machine Learning'],
+            cardTechs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Open-Meteo', 'Telemetria', 'Machine Learning'],
+            videoUrl: 'https://www.youtube.com/watch?v=NWg78fgQzWw&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=5',
+            demoUrl: 'https://tztk9tr4p3otxkwkhseuvt.streamlit.app/',
             details: {
-                desafio: 'Dar controle financeiro completo para pequenas e médias empresas com baixa maturidade em processos.',
-                solucao: 'Sistema com contas a pagar/receber, conciliação bancária por OFX, relatórios DRE e gráficos de evolução.',
-                resultados: 'Rotina financeira mais organizada, decisões mais rápidas e visão clara do fluxo de caixa.'
+                desafio: 'Irrigação sem dados elevava desperdícios de água e energia e aumentava risco operacional no campo.',
+                solucao: 'Monitoramento de recursos, clima e simulações para planejar irrigação com segurança e previsibilidade.',
+                resultados: 'Redução de custos, uso eficiente de recursos e ganho consistente de produtividade agrícola.'
             },
             images: [
-                'portfólio/Finance Hanna/1.png', 'portfólio/Finance Hanna/2.png',
-                'portfólio/Finance Hanna/3.png', 'portfólio/Finance Hanna/4.png',
-                'portfólio/Finance Hanna/5.png', 'portfólio/Finance Hanna/6.png'
-            ]
-        },
-        ControleVendas: {
-            title: 'Controle de Vendas BI',
-            cardTitle: 'Controle de Vendas',
-            desc: 'DataApp em dashboard para acompanhar vendas de uma concessionária: visão por estado, performance por vendedor e variação de preços conforme a tabela FIPE.',
-            cardDesc: 'DataApp em dashboard para acompanhar vendas de uma concessionária: visão por estado, performance por vendedor e variação de preços conforme a tabela FIPE.',
-            techs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            cardTechs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            details: {
-                desafio: 'Unificar indicadores comerciais que estavam espalhados em planilhas e fontes desconectadas.',
-                solucao: 'Pipeline ETL para consolidar dados de CRM/Excel e painel estratégico com KPIs de performance e metas.',
-                resultados: 'Visão única dos indicadores com acompanhamento contínuo de meta, churn, CAC e LTV.'
-            },
-            images: [
-                'portfólio/Controle de Vendas/1.png', 'portfólio/Controle de Vendas/2.png'
-            ]
-        },
-        ColheitaMilho: {
-            title: 'Precificação de Safra (Milho)',
-            cardTitle: 'Colheita de Milho',
-            desc: 'Dashboard que acompanha safra de milho, produção e ganhos, reunindo indicadores e insights de alta performance para apoiar decisões e aumentar a rentabilidade nas próximas safras.',
-            cardDesc: 'Dashboard que acompanha safra de milho, produção e ganhos, reunindo indicadores e insights de alta performance para apoiar decisões e aumentar a rentabilidade nas próximas safras.',
-            techs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            cardTechs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            details: {
-                desafio: 'Estimar produtividade agrícola com maior precisão para apoiar decisões de comercialização da safra.',
-                solucao: 'Pipeline de dados com limpeza, feature engineering e modelos de regressão para prever sacas por hectare.',
-                resultados: 'Maior previsibilidade de produção e suporte analítico para decisões de venda futura da commodity.'
-            },
-            images: [
-                'portfólio/Colheita de Milho/1.png', 'portfólio/Colheita de Milho/2.png',
-                'portfólio/Colheita de Milho/3.png', 'portfólio/Colheita de Milho/4.png'
+                'portfólio/Projeto 05 - Hidro Gestor/1.png', 'portfólio/Projeto 05 - Hidro Gestor/2.png',
+                'portfólio/Projeto 05 - Hidro Gestor/3.png', 'portfólio/Projeto 05 - Hidro Gestor/4.png',
+                'portfólio/Projeto 05 - Hidro Gestor/5.png', 'portfólio/Projeto 05 - Hidro Gestor/6.png',
+                'portfólio/Projeto 05 - Hidro Gestor/7.png', 'portfólio/Projeto 05 - Hidro Gestor/8.png',
+                'portfólio/Projeto 05 - Hidro Gestor/9.png', 'portfólio/Projeto 05 - Hidro Gestor/10.png',
+                'portfólio/Projeto 05 - Hidro Gestor/11.png', 'portfólio/Projeto 05 - Hidro Gestor/12.png',
+                'portfólio/Projeto 05 - Hidro Gestor/13.png',
+                'https://www.youtube.com/watch?v=NWg78fgQzWw&list=PLgClOBsYlhWUh9K5eY8Dqcnk0x7e3eq7v&index=5'
             ]
         }
     };
@@ -1093,94 +1244,68 @@ ${data.message}
     const projectBaseTexts = JSON.parse(JSON.stringify(projectsData));
     const projectTranslationsEn = {
         AgroSupply: {
-            title: 'AgroSupply',
-            cardTitle: 'AgroSupply',
-            desc: 'Supply and logistics management platform for agribusiness.',
-            cardDesc: 'Supply and logistics management platform for agribusiness.',
-            techs: ['Python', 'AI Agent', 'Supply Chain KPIs'],
-            cardTechs: ['Python', 'AI Agent', 'Supply Chain KPIs'],
+            title: 'AgroSupply — Agricultural Supply ERP with AI',
+            cardTitle: 'AgroSupply — Agricultural Supply ERP with AI',
+            desc: 'AgroSupply is an agricultural supply ERP that prevents stockouts, reduces waste, and improves operational predictability. It centralizes purchasing, consumption, inventory, and KPIs for faster decisions and less working capital trapped in inputs.',
+            cardDesc: 'AgroSupply is an agricultural supply ERP that prevents stockouts, reduces waste, and improves operational predictability. It centralizes purchasing, consumption, inventory, and KPIs for faster decisions and less working capital trapped in inputs.',
+            techs: ['Python', 'Flask', 'LangChain', 'PostgreSQL'],
+            cardTechs: ['Python', 'Flask', 'LangChain', 'PostgreSQL'],
             details: {
-                desafio: 'Centralize purchasing and inventory management for a distributor network with fragmented data and replenishment failures.',
-                solucao: 'Python platform with an AI agent and real-time supply chain KPI monitoring to support decision-making.',
-                resultados: 'Reduced expiration losses and improved approval speed in procurement workflows.'
+                desafio: 'Stockouts, waste, and tied-up inventory were hurting margins and operational predictability.',
+                solucao: 'Supply ERP with AI centralizing purchasing, consumption, inventory, and KPIs in a single workflow.',
+                resultados: 'Lower losses, faster decisions, and tighter financial control over inventory.'
             }
         },
-        SmartTank: {
-            title: 'SmartTank IoT',
-            cardTitle: 'SmartTank',
-            desc: 'MicroSaaS for fuel management in contractors and industries, with stock control, refill alerts, inventories, and monthly closing.',
-            cardDesc: 'MicroSaaS for fuel management in contractors and industries, with stock control, refill alerts, inventories, and monthly closing.',
-            techs: ['Python', 'Flask', 'SQL', 'SaaS', 'Inventory Management'],
-            cardTechs: ['Python', 'Flask', 'SQL', 'SaaS', 'Inventory Management'],
+        SolarisTech: {
+            title: 'SolarisTech — Intelligent Management of Micro Photovoltaic Plants',
+            cardTitle: 'SolarisTech — Intelligent Management of Micro Photovoltaic Plants',
+            desc: 'SolarisTech monitors micro photovoltaic plants in real time to reduce losses, detect failures, and maximize generation profitability. It combines telemetry and weather data for efficiency analysis, forecasting, and operational alerts.',
+            cardDesc: 'SolarisTech monitors micro photovoltaic plants in real time to reduce losses, detect failures, and maximize generation profitability. It combines telemetry and weather data for efficiency analysis, forecasting, and operational alerts.',
+            techs: ['Python', 'Flask', 'Machine Learning', 'Open-Meteo', 'Telemetry'],
+            cardTechs: ['Python', 'Flask', 'Machine Learning', 'Open-Meteo', 'Telemetry'],
             details: {
-                desafio: 'Monitor tank levels, temperature, and pressure in industrial and agribusiness environments without manual checks.',
-                solucao: 'MQTT sensors stream data to AWS IoT Core while a Python backend processes events and triggers automatic alerts.',
-                resultados: 'Greater operational predictability with real-time alerts for anomalies and critical levels.'
+                desafio: 'Generation losses and failures were detected too late, reducing micro-plant profitability.',
+                solucao: 'Real-time monitoring with telemetry and weather data for efficiency analysis, forecasting, and alerts.',
+                resultados: 'Lower losses, proactive response to incidents, and stronger revenue predictability.'
             }
         },
-        Solaristech: {
-            title: 'SolarisTech',
-            cardTitle: 'Solaristech',
-            desc: 'Platform for small and medium photovoltaic producers to track output (kWh/$), losses, and climate using APIs and predictive models.',
-            cardDesc: 'Platform for small and medium photovoltaic producers to track output (kWh/$), losses, and climate using APIs and predictive models.',
-            techs: ['Python', 'Flask', 'Open-Meteo', 'PostgreSQL', 'Machine Learning'],
-            cardTechs: ['Python', 'Flask', 'Open-Meteo', 'PostgreSQL', 'Machine Learning'],
+        StockPredict: {
+            title: 'StockPredict — Intelligent Inventory Management with AI',
+            cardTitle: 'StockPredict — Intelligent Inventory Management with AI',
+            desc: 'StockPredict reduces losses from overstock and stockouts by using AI to forecast demand and recommend replenishment. It improves inventory turnover, lowers operating costs, and increases purchasing decision accuracy.',
+            cardDesc: 'StockPredict reduces losses from overstock and stockouts by using AI to forecast demand and recommend replenishment. It improves inventory turnover, lowers operating costs, and increases purchasing decision accuracy.',
+            techs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
+            cardTechs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
             details: {
-                desafio: 'Consolidate multi-inverter generation data and quickly identify performance losses.',
-                solucao: 'System with climate monitoring, kWh production management, and predictive models to anticipate generation deviations.',
-                resultados: 'Higher energy efficiency through preventive actions and stronger operational control.'
+                desafio: 'Overstock and stockouts were increasing lost sales, operating costs, and tied-up cash.',
+                solucao: 'AI demand forecasting and replenishment recommendations using historical and seasonal data.',
+                resultados: 'Higher inventory turnover, lower storage costs, and more accurate purchasing decisions.'
             }
         },
-        CargoVision: {
-            title: 'CargoVision AI',
-            cardTitle: 'CargoVision',
-            desc: 'Python/Flask + SQL dashboard to monitor deliveries and SLA with GeoMaps; logistic regression and XGBoost for delivery prediction.',
-            cardDesc: 'Python/Flask + SQL dashboard to monitor deliveries and SLA with GeoMaps; logistic regression and XGBoost for delivery prediction.',
-            techs: ['Python', 'Flask', 'SQL', 'GeoMaps', 'Logistic Regression', 'XGBoost'],
-            cardTechs: ['Python', 'Flask', 'SQL', 'GeoMaps', 'Logistic Regression', 'XGBoost'],
+        LogiChainAI: {
+            title: 'LogiChain AI — Intelligent Contract Lifecycle Management (CLM)',
+            cardTitle: 'LogiChain AI — Intelligent Contract Lifecycle Management (CLM)',
+            desc: 'LogiChain AI organizes and controls contracts end-to-end to reduce risk, avoid losses, and strengthen governance. It automates versioning, status auditing, and compliance/performance indicators for suppliers.',
+            cardDesc: 'LogiChain AI organizes and controls contracts end-to-end to reduce risk, avoid losses, and strengthen governance. It automates versioning, status auditing, and compliance/performance indicators for suppliers.',
+            techs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
+            cardTechs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Machine Learning'],
             details: {
-                desafio: 'Automate logistics gate control to reduce queues, validation failures, and fraud risk.',
-                solucao: 'Computer vision pipeline with georeferencing and route planning to optimize inspection and movement flow.',
-                resultados: 'Transport management driven by KPI monitoring, with more efficiency and better decision-making.'
+                desafio: 'Low contract traceability increased legal risk, financial losses, and governance gaps.',
+                solucao: 'AI-powered CLM for versioning, status audits, and compliance and performance indicators.',
+                resultados: 'Lower risk exposure, fewer contractual losses, and more predictable supplier governance.'
             }
         },
-        FinanceHanna: {
-            title: 'Finance Hanna',
-            cardTitle: 'Finance Hanna',
-            desc: 'CRM for accounts payable and receivable management, with delay alerts, payment records, and real-time financial dashboards.',
-            cardDesc: 'CRM for accounts payable and receivable management, with delay alerts, payment records, and real-time financial dashboards.',
-            techs: ['Python', 'Flask', 'Dashboards', 'Financial Operations', 'Fiscal Control'],
-            cardTechs: ['Python', 'Flask', 'Dashboards', 'Financial Operations', 'Fiscal Control'],
+        HidroGestor: {
+            title: 'HidroGestor — Intelligent Irrigation Management with AI',
+            cardTitle: 'HidroGestor — Intelligent Irrigation Management with AI',
+            desc: 'HidroGestor optimizes irrigation by monitoring water, energy, and weather to reduce waste and improve productivity. It brings weather-based planning and simulations for safer field decisions.',
+            cardDesc: 'HidroGestor optimizes irrigation by monitoring water, energy, and weather to reduce waste and improve productivity. It brings weather-based planning and simulations for safer field decisions.',
+            techs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Open-Meteo', 'Telemetry', 'Machine Learning'],
+            cardTechs: ['Python', 'Streamlit', 'LangChain', 'PostgreSQL', 'Open-Meteo', 'Telemetry', 'Machine Learning'],
             details: {
-                desafio: 'Give small and medium businesses full financial control despite low process maturity.',
-                solucao: 'System for payables/receivables, OFX bank reconciliation, DRE reports, and expense trend charts.',
-                resultados: 'More organized financial routine, faster decisions, and better cash-flow visibility.'
-            }
-        },
-        ControleVendas: {
-            title: 'Sales Control BI',
-            cardTitle: 'Sales Control',
-            desc: 'Data app dashboard for dealership sales tracking: state view, seller performance, and price variation based on FIPE table.',
-            cardDesc: 'Data app dashboard for dealership sales tracking: state view, seller performance, and price variation based on FIPE table.',
-            techs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            cardTechs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            details: {
-                desafio: 'Unify sales indicators spread across disconnected spreadsheets and systems.',
-                solucao: 'ETL pipeline consolidating CRM/Excel data into a strategic KPI dashboard.',
-                resultados: 'Single source of truth for metrics with ongoing tracking of targets, churn, CAC, and LTV.'
-            }
-        },
-        ColheitaMilho: {
-            title: 'Corn Harvest Pricing',
-            cardTitle: 'Corn Harvest',
-            desc: 'Dashboard tracking corn harvest, production, and gains with high-performance indicators and insights for better profitability.',
-            cardDesc: 'Dashboard tracking corn harvest, production, and gains with high-performance indicators and insights for better profitability.',
-            techs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            cardTechs: ['Python', 'Streamlit', 'Pandas', 'Plotly'],
-            details: {
-                desafio: 'Estimate agricultural productivity with higher precision to support crop commercialization decisions.',
-                solucao: 'Data pipeline with cleaning, feature engineering, and regression models to predict yield per hectare.',
-                resultados: 'Better production predictability and analytical support for future commodity sales decisions.'
+                desafio: 'Irrigation without reliable data increased water and energy waste and raised operational risk.',
+                solucao: 'Intelligent planning with weather data, telemetry, and simulations for safer irrigation decisions.',
+                resultados: 'Lower operating costs, better resource efficiency, and sustained productivity gains.'
             }
         }
     };
@@ -1204,12 +1329,10 @@ ${data.message}
 
     const portfolioOrder = [
         'AgroSupply',
-        'SmartTank',
-        'Solaristech',
-        'CargoVision',
-        'FinanceHanna',
-        'ControleVendas',
-        'ColheitaMilho'
+        'SolarisTech',
+        'StockPredict',
+        'LogiChainAI',
+        'HidroGestor'
     ];
 
     const escapeHtml = (value = '') =>
@@ -1249,6 +1372,15 @@ ${data.message}
                 .map((tag) => `<span>${escapeHtml(tag)}</span>`)
                 .join('');
             const detailsLabel = uiTranslations[currentLanguage]?.portfolio?.viewDetails || 'Ver Detalhes';
+            const demoLabel = uiTranslations[currentLanguage]?.portfolio?.viewDemo || 'Demo';
+            const compactActionStyle = 'padding:8px 14px; font-size:0.75rem; line-height:1.1; white-space:nowrap;';
+            const actions = [
+                `<button class="btn btn-outline btn-sm" style="${compactActionStyle}" onclick="openProject('${id}')">${detailsLabel}</button>`
+            ];
+
+            if (data.demoUrl) {
+                actions.push(`<a class="btn btn-outline btn-sm" style="${compactActionStyle}" href="${escapeHtml(data.demoUrl)}" target="_blank" rel="noopener noreferrer">${demoLabel}</a>`);
+            }
 
             return `
                 <li class="slide">
@@ -1262,7 +1394,9 @@ ${data.message}
                             <div class="tech-tags">
                                 ${tags}
                             </div>
-                            <button class="btn btn-outline btn-sm" onclick="openProject('${id}')">${detailsLabel}</button>
+                            <div style="display:flex; flex-wrap:nowrap; gap:8px; align-items:center;">
+                                ${actions.join('')}
+                            </div>
                         </div>
                     </div>
                 </li>
